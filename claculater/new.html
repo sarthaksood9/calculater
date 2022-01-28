@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div class="calc">
+        <form class="calculator">
+            <input type="text" id="in" class="val" readonly value="">
+            <div id="btn-div">
+                <button type="button" id="btn1" class="btn" onclick="
+        document.getElementById('in').value += '1' "><div id="cxc">1</div></button>
+
+                <button type="button" id="btn2" class="btn" onclick="
+            document.getElementById('in').value += '2' ">2</button>
+
+                <button type="button" id="btn3" class="btn" onclick="
+        document.getElementById('in').value += '3' ">3</button>
+
+                <button type="button" id="btn+" class="btn" onclick="
+        document.getElementById('in').value += '+' ">+</button>
+
+                <button type="button" id="btn4" class="btn" onclick="
+        document.getElementById('in').value += '4' ">4</button>
+
+                <button type="button" id="btn5" class="btn" onclick="
+        document.getElementById('in').value += '5' ">5</button>
+
+                <button type="button" id="btn6" class="btn" onclick="
+        document.getElementById('in').value += '6' ">6</button>
+
+                <button type="button" id="btn-" class="btn" onclick="
+        document.getElementById('in').value += '-' ">-</button>
+
+                <button type="button" id="btn7" class="btn" onclick="
+        document.getElementById('in').value += '7' ">7</button>
+
+                <button type="button" id="btn8" class="btn" onclick="
+        document.getElementById('in').value += '8' ">8</button>
+
+                <button type="button" id="btn9" class="btn" onclick="
+        document.getElementById('in').value += '9' ">9</button>
+
+                <button type="button" id="btn1" class="btn" onclick="
+        document.getElementById('in').value += '*' ">*</button>
+
+                <button type="button" id="btn0" class="btn" onclick="
+        document.getElementById('in').value += '0' ">0</button>
+
+                <button type="button" id="btn1" class="btn" onclick="
+        document.getElementById('in').value += '/' ">/</button>
+
+                <button type="button" id="btn1" class="btn"
+                    onclick="document.getElementById('in').value=eval(document.getElementById('in').value)">=</button>
+                <button type="button" id="btnc" class="btn" onclick="
+        document.getElementById('in').value = '' ">c</button>
+            </div>
+        </form>
+
+    </div>
+    <!-- <script>
+        document.getElementById('btn1').onclick = function(){
+            document.getElementById('in').value += "1"
+        }
+        document.getElementById('btn2').onclick = function(){
+            document.getElementById('in').value += "2"
+            
+        }
+        document.getElementById('btn3').onclick = function(){
+            document.getElementById('in').value += "3"
+        }
+        document.getElementById('btn4').onclick = function(){
+            document.getElementById('in').value += "4"
+        }
+        document.getElementById('btn5').onclick = function(){
+            document.getElementById('in').value += "5"
+        }
+        document.getElementById('btn6').onclick = function(){
+            document.getElementById('in').value += "6"
+        }
+        document.getElementById('btn7').onclick = function(){
+            document.getElementById('in').value += "7"
+        }
+        document.getElementById('btn8').onclick = function(){
+            document.getElementById('in').value += "8"
+        }
+        document.getElementById('btn9').onclick = function(){
+            document.getElementById('in').value += "9"
+        }
+        document.getElementById('btn0').onclick = function(){
+            document.getElementById('in').value += "0"
+        }
+        document.getElementById('btnc').onclick = function(){
+            document.getElementById('in').value = ""
+        }
+    </script> -->
+    <!-- <script>
+        
+        var num2 =2;
+        document.getElementById('btn+').onclick = function(){
+            document.getElementById('out').value=num1;
+            // num2=document.getElementById('in').value;
+        }   
+        var num1 = document.getElementById('in').value;
+    </script> -->
+</body>
+
+</html>
