@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .stop-div{
     color: aliceblue    ;
@@ -19,4 +20,8 @@
     /* border: 2px solid red; */
     gap: 0.5rem;
    
+}
+
+.minSelecter{
+
 }

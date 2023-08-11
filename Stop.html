@@ -8,7 +8,27 @@
 </head>
 <body>
     
-    <div class="main">
+    <div id="mainBody" class="main">
+        <div class="minSelecter">
+            <select id="ColorSelect" onchange="myColor()">
+                <option value="black">black</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+                <option value="pink">pink</option>
+            </select>
+            <select id="minSelect" onchange="myMin()">
+                <option value="1">1 min</option>
+                <option value="2">2 min</option>
+                <option value="5">5 min</option>
+                <option value="10">10 min</option>
+            </select>
+            <select id="secSelect" onchange="mySec()">
+                <option value="10">10 sec</option>
+                <option value="20">20 sec</option>
+                <option value="30">30 sec</option>
+                <option value="60">60 sec</option>
+            </select>
+        </div>
         <div class="stop-div">
             <div id="min">
                 1
@@ -19,6 +39,10 @@
             <div id="sec">
                 10
             </div>
+        </div>
+        <div class="startBtn">
+            <button id="SBtn" onclick="sopFun()">Start</button>
+            <button id="Cbtn" onclick="Clrfun()">Clear</button>
         </div>
     </div>
     <script src="stop.js">
