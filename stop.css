@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap:2rem;
 }
 .stop-div{
     color: aliceblue    ;
@@ -22,6 +23,26 @@
    
 }
 
-.minSelecter{
+.startBtn{
+    display: flex;
+    gap: 2rem;
+}
 
+.minSelecter{
+    display: flex;
+    gap: 2rem;
+}
+select{
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+button{
+    /* color: aliceblue; */
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    /* background-color: chartreuse; */
 }
