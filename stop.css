@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stop-div{
+    color: aliceblue    ;
+    display: flex;
+    font-size: 40px;
+    /* border: 2px solid red; */
+    gap: 0.5rem;
+   
+}
